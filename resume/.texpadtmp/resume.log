@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  22 SEP 2015 13:37
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  22 SEP 2015 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,8 +1067,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--198
 
  []
 
-Missing character: There is no Ⲙ in font [latinmodern-math.otf]/ICU:script=math;language=DFLT;mapping=tex-text;!
-Missing character: There is no 㕤 in font [latinmodern-math.otf]/ICU:script=math;language=DFLT;mapping=tex-text;!
+Missing character: There is no ⱴ in font [latinmodern-math.otf]/ICU:script=math;language=DFLT;mapping=tex-text;!
+Missing character: There is no 㕙 in font [latinmodern-math.otf]/ICU:script=math;language=DFLT;mapping=tex-text;!
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--252
 
