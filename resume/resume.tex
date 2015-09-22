@@ -1,0 +1,241 @@
+% ---------------------------------------------------------------------------------------
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% Modifications by:
+% Jake Robinson-Lieberman (jake@jakerl.com)
+% https://github.com/jakerl/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+% ---------------------------------------------------------------------------------------
+
+% print option removes coloring in document 
+\documentclass[print]{friggeri-cv}
+
+% Specify the bibliography file to include publications
+\addbibresource{bibliography.bib} 
+
+%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%--- HEADER -----------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+% {first name}{last name}{job title/field} 
+\header{jake}{robinson-lieberman}{software engineer}
+
+%--- BEGIN ASIDE ------------------------------------------------------------------------
+% in the aside section, each new line forces a line break
+% use '~' for empty lines
+\begin{aside}
+%----------------------------------------------------------------------------------------
+%--- CONTACT ----------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------- 
+\section{contact}
+904 Hinman Ave. \#2G
+Evanston, Illinois 60202
+~
+(847) 845-6974
+\href{mailto:jake@jakerl.com}{jake@jakerl.com}
+~
+\href{http://www.jakerl.com}{jakerl.com}
+\href{https://github.com/jakerl}{github.com/jakerl}
+%----------------------------------------------------------------------------------------
+%--- LANGUAGE ---------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{language}
+english - native
+spanish - proficient
+%----------------------------------------------------------------------------------------
+%--- DEVELOPMENT ------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{development}
+C, C++, Java
+Objective-C, MATLAB
+Git, \LaTeX
+~
+Xcode, Vim
+~
+OS X, UNIX, iOS
+%----------------------------------------------------------------------------------------
+%--- CLASS PROJECTS ---------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{class projects} 
+%--- UNIX/LINUX PROGRAMMING -------------------------------------------------------------
+\textbf{UNIX/Linux Programming}
+$\bullet$ Interpreter \& Compiler
+$\bullet$ Client-Server Model
+$\bullet$ Web Parser/Filter
+~
+%--- OPERATING SYSTEMS ------------------------------------------------------------------
+\textbf{Operating Systems}
+$\bullet$ UNIX Shell
+$\bullet$ Job/CPU Scheduling Simulator
+~
+%--- ARTIFICIAL INTELLIGENCE ------------------------------------------------------------
+\textbf{Artificial Intelligence}
+$\bullet$ Slide Puzzle Solver
+$\bullet$ Sudoku Solver 
+$\bullet$ Reinforcement Learning Simulator
+~
+%--- COMPUTER SYSTEMS ENGINEERING -------------------------------------------------------
+\textbf{Computer Systems Engineering}
+$\bullet$ Circuit Simulator
+~
+%--- MULTIDISCIPLINARY DESIGN -----------------------------------------------------------
+\textbf{Multidisciplinary Design}
+$\bullet$ FPGA Client-Server Application
+%--- END ASIDE --------------------------------------------------------------------------
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%--- EDUCATION SECTION ------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{education}
+% --- BEGIN ENTRY LIST ------------------------------------------------------------------
+\begin{entrylist}
+
+%--- THE UNIVERSITY OF DAYTON -----------------------------------------------------------
+\entry
+{8/11 - 5/15}
+{The University of Dayton}
+{Dayton, Ohio}		
+{
+Bachelor of Science in Computer Engineering
+\begin{itemize}
+	\item Minor in Computer Science
+	\item 3.26 GPA in Computer Science
+	\item 3.00 GPA in Engineering
+\end{itemize}
+}
+
+%--- LOYOLA ACADEMY ---------------------------------------------------------------------
+\entry
+{8/07 - 5/11}
+{Loyola Academy High School}
+{Wilmette, Illinois}
+{}
+
+% --- END ENTRY LIST --------------------------------------------------------------------
+\end{entrylist}
+
+\vspace{-10pt} % removes whitespace due to allocated empty line under Loyola Academy
+
+%----------------------------------------------------------------------------------------
+%---EXPERIENCE SECTION ------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{experience}
+% --- BEGIN ENTRY LIST ------------------------------------------------------------------
+\begin{entrylist}
+
+%--- STAND4 - COMMUNITY MANAGER ---------------------------------------------------------
+\entry
+{5/15 - 8/15}
+{Stand4}
+{Boca Raton, Florida}
+{
+\emph{Community Manager}
+\begin{itemize}
+	\item Increased engagement and enhanced satisfaction amongst 2,500 users by strategically sending emails and notifications, connecting with users around the clock, and influencing UI/UX and product-feature decisions. 
+	\item Optimized visibility on the App Store, improving search rank by as much as 16 positions, resulting in a fourth place standing.
+	\item Organized hand-written letters and company stickers for over 200 users.   
+\end{itemize} 
+}
+
+%--- MINEME -----------------------------------------------------------------------------
+\entry
+{7/15 - 8/15}
+{MineMe}
+{Boca Raton, Florida}
+{
+\emph{Front-End iOS Developer}
+\begin{itemize}
+	\item Developed front-end of iOS application, porting designer's Photoshop project to Storyboard file.
+	\item Implemented camera functionality with repurposed custom Nib file.
+\end{itemize}
+}
+
+%--- STAND4 - LEAD DEVELOPER ------------------------------------------------------------
+\entry
+{5/14 - 8/14}
+{Stand4}
+{Boca Raton, Florida}
+{
+\emph{Lead  Developer, Internship}
+\begin{itemize}
+	\item Built iOS application that allowed users to create a profile, "Stand" for nonprofit organizations, see the number of "Stands" that they had taken, and post comments and/or pictures to a public stream. 
+	\item Developed application in Objective-C in conjunction with Storyboard file.
+	\item Utilized Parse and CocoaControls for scalability, Git for source control, and TestFlight for internal testing. 
+	\item Collaborated with Founder to design application's UI/UX in Photoshop.
+\end{itemize}
+}
+
+% --- END ENTRY LIST --------------------------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%---LEADERSHIP SECTION ------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\section{leadership}
+% --- BEGIN ENTRY LIST ------------------------------------------------------------------
+\begin{entrylist}
+
+%--- MEN'S CLUB VOLLEYBALL --------------------------------------------------------------
+\entry
+{6/13 - 6/15}
+{Men's Club Volleyball}
+{The University of Dayton}
+{
+\emph{President}
+\begin{itemize}
+	\item Managed logistics, budget, and coaching of highly competitive club sport.
+	\item Led team to first conference championship in over 10 years. 
+	\item Brought team to a 25\textsuperscript{th} place national finish in 2015.
+\end{itemize}
+}
+
+%--- FLYER INNOVATIONS ------------------------------------------------------------------
+\entry
+{1/14 - 1/15}
+{Flyer Innovations}
+{The University of Dayton}
+{
+\emph{Chief of Operations} 
+\begin{itemize}
+	\item Maintained and managed internal structure of student-run organization. 
+	\item Fostered collaborative ideation in an entrepreneurial environment. 
+	\item Grew club's presence on campus with unique events and activities such as chariot races sponsored by Red Bull.
+\end{itemize}
+}
+
+%--- WOMEN'S CLUB VOLLEYBALL ------------------------------------------------------------
+\entry
+{9/12 - 6/15}
+{Women's Club Volleyball}
+{The University of Dayton}
+{
+\emph{Coach}
+\begin{itemize}
+	\item Directed practices and matches, teaching advanced skills and strategies.
+	\item Coached team to a 14\textsuperscript{th} place national finish in 2015.
+\end{itemize}
+}
+
+% --- END ENTRY LIST --------------------------------------------------------------------
+\end{entrylist}
+
+%%% END DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
