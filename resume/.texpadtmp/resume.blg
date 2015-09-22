@@ -1,9 +1,9 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
 [0] Config.pm:390> INFO - Logfile is '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.blg'
-[108] biber-darwin:218> INFO - === Mon Sep 21, 2015, 20:46:01
-[108] Biber.pm:325> INFO - Reading '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bcf'
-[207] Biber.pm:623> INFO - Found 0 citekeys in bib section 0
-[208] Utils.pm:169> WARN - The file '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bcf' does not contain any citations!
-[231] bbl.pm:472> INFO - Writing '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bbl' with encoding 'UTF-8'
-[232] bbl.pm:545> INFO - Output to /Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bbl
-[232] Biber.pm:105> INFO - WARNINGS: 1
+[109] biber-darwin:218> INFO - === Tue Sep 22, 2015, 13:20:00
+[109] Biber.pm:325> INFO - Reading '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bcf'
+[209] Biber.pm:623> INFO - Found 0 citekeys in bib section 0
+[209] Utils.pm:169> WARN - The file '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bcf' does not contain any citations!
+[236] bbl.pm:472> INFO - Writing '/Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bbl' with encoding 'UTF-8'
+[236] bbl.pm:545> INFO - Output to /Users/jakerobinson-lieberman/Documents/jakerl.com/jakerl.github.io/resume/.texpadtmp/resume.bbl
+[236] Biber.pm:105> INFO - WARNINGS: 1
