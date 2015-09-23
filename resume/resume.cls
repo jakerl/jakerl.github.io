@@ -8,7 +8,6 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-
 %%%%%%%%%%
 % Colors %
 %%%%%%%%%%
@@ -138,7 +137,7 @@
   \par\vspace{.25\parskip}%
 }
 
-\pagestyle{empty}
+ \pagestyle{empty}
 
 %%%%%%%%%%%%%%%%%%%%
 % List environment %
