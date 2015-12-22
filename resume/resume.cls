@@ -174,7 +174,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1.5, 3.83)   
+  \begin{textblock}{3.56}(1.5, 3.83)   
   \begin{flushleft}
   \obeycr
 }{%
