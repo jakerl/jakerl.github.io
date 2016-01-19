@@ -89,7 +89,7 @@
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.0cm}
+  \vspace{1.6cm}
   \vspace{-2\parskip}
 }
 
@@ -174,7 +174,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.56}(1.5, 3.83)   
+  \begin{textblock}{3.8}(1.3, 3.4)   
   \begin{flushleft}
   \obeycr
 }{%
@@ -321,7 +321,7 @@
 %%%%%%%%%%%%%%%%
 
 % reduce 'bottom' if/when LaTeX generates an empty second page
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=0.75cm,nohead,nofoot]{geometry}
+\RequirePackage[left=5.5cm,top=2cm,right=2cm,bottom=0.75cm,nohead,nofoot]{geometry}
     
 % A fix for \href{}{} colors not working with fontspec
 \makeatletter
