@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
 
 body {
-   background-color: gray;
+   background-color: #282a36;
    display:flex;
    justify-content:center;
    align-items:center;
 }
 
 h1 {
-   color: white;
+   color: #f8f8f2;
    font-family: Comfortaa;
    font-weight: 700;
 }
@@ -20,9 +20,9 @@ h2 {
 }
 
 #pro {
-   color: #90EE90;
+   color: #50fa7b;
 }
 
 #artist {
-   color: #EE90EE;
+   color: #bd93f9;
 }
